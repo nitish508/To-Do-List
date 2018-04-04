@@ -1,0 +1,55 @@
+html, body{margin:0px;font-family:arial;}
+.wrapper{width:100%;}
+.container{width:600px;text-align:center;margin:1% auto;}
+.addField{padding:10px 40px 10px 10px;}
+.addbtn{padding:10px 20px;cursor:pointer;background:#31b7b3;border:1px solid #31b7b3;outline:none;}
+ul li:nth-child(odd) {
+    background: #f9f9f9;
+}
+ul{padding:0px;}
+li.itemNumber{position:relative;}
+ul li {
+    
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	text-align:left;
+}
+ul li:hover {
+    background: #ddd;
+	
+}
+.addedItemList{
+		margin-top: 30px;
+		width: 50%;
+		margin: auto;
+	
+	
+}
+span.close{
+	position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+    
+	
+}
+span.close:hover {
+    background-color: #f44336;
+     color: #fff;
+	 cursor:pointer;
+}
+.Error {
+    border: 1px solid red;
+}
+.Error:focus {
+    border: 1px solid red;
+	 outline:none;
+}
